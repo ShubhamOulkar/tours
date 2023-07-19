@@ -18,28 +18,28 @@
 
 <body>
 
-<!-- Navigation Bar -->
-<div class="navigation">
-    <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
-    <label for="navi-toggle" class="navigation__button">
-        <span class="navigation__icon">&nbsp;</span>
-    </label>
+    <!-- Navigation Bar -->
+    <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+        <label for="navi-toggle" class="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+        </label>
 
-    <div class="navigation__background">&nbsp;</div>
+        <div class="navigation__background">&nbsp;</div>
 
-    <nav class="navigation__nav">
-        <ul class="navigation__list">
-            <li class="navigation__item"><a href="#" class="navigation__link">About Natous</a></li>
-            <li class="navigation__item"><a href="#" class="navigation__link">Your benefit</a></li>
-            <li class="navigation__item"><a href="#" class="navigation__link">Popular tours</a></li>
-            <li class="navigation__item"><a href="#" class="navigation__link">Stories</a></li>
-            <li class="navigation__item"><a href="" class="navigation__link">Book now</a></li>
-        </ul>
-    </nav>
-</div>
+        <nav class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="#" class="navigation__link">About Natous</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link">Your benefit</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link">Popular tours</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link">Stories</a></li>
+                <li class="navigation__item"><a href="" class="navigation__link">Book now</a></li>
+            </ul>
+        </nav>
+    </div>
 
 
-<!-- header section -->
+    <!-- header section -->
     <header class="header">
         <div class="header__logo-box">
             <img class="header__logo" src="img/logo-white.png" alt="logo">
@@ -60,7 +60,7 @@
 
         <!-- About section  -->
         <section class="section-about">
-            <div class="u-center-text u-margin-bottom-big">
+            <div class="u-center-text u-margin-bottom-8">
                 <h2 class="heading-secondary">
                     Exciting tours for adventurous people
                 </h2>
@@ -68,24 +68,39 @@
 
             <div class="row">
                 <div class="col-1-of-2">
-                    <h3 class="heading-tertiary u-margin-bottom-small">You're going to fall in love with nature</h3>
+                    <h3 class="heading-tertiary u-margin-bottom-2">You're going to fall in love with nature</h3>
                     <p class="paragraph">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur
+                        libero repellat quis consequatur
                         ducimus quam nisi exercitationem omnis earum qui.
                     </p>
 
-                    <h3 class="heading-tertiary u-margin-bottom-small">Live adventures like you never have before</h3>
+                    <h3 class="heading-tertiary u-margin-bottom-2">Live adventures like you never have before</h3>
                     <p class="paragraph">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nulla deserunt voluptatum nam.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nulla deserunt voluptatum
+                        nam.
                     </p>
 
                     <a href="#" class="btn-text">Learn more &rarr;</a>
                 </div>
                 <div class="col-1-of-2">
                     <div class="composition">
-                        <img src="img/nat-1-large.jpg" alt="Photo 1" class="composition__photo composition__photo--p1">
-                        <img src="img/nat-2-large.jpg" alt="Photo 2" class="composition__photo composition__photo--p2">
-                        <img src="img/nat-3-large.jpg" alt="Photo 3" class="composition__photo composition__photo--p3">
+
+                        <img srcset="img/nat-1.jpg 300w, img/nat-1-large.jpg 1000w" src="img/nat-1-large.jpg"
+                            sizes="(max-width:900px) 20vw, (max-width:600) 30vw, 300px" alt="photo 1"
+                            class="composition__photo composition__photo--p1">
+
+                        <img srcset="img/nat-2.jpg 300w, img/nat-2-large.jpg 1000w" src="img/nat-2-large.jpg"
+                            sizes="(max-width:900px) 20vw, (max-width:600) 30vw, 300px" alt="photo 2"
+                            class="composition__photo composition__photo--p2">
+
+                        <img srcset="img/nat-3.jpg 300w, img/nat-3-large.jpg 1000w" src="img/nat-3-large.jpg"
+                            sizes="(max-width:900px) 20vw, (max-width:600) 30vw, 300px" alt="photo 3"
+                            class="composition__photo composition__photo--p3">
+
+                        <!-- <img src="img/nat-1-large.jpg" alt="Photo 1" class="composition__photo composition__photo--p1"> -->
+                        <!-- <img src="img/nat-2-large.jpg" alt="Photo 2" class="composition__photo composition__photo--p2"> -->
+                        <!-- <img src="img/nat-3-large.jpg" alt="Photo 3" class="composition__photo composition__photo--p3"> -->
                     </div>
                 </div>
             </div>
@@ -264,13 +279,15 @@
                 <div class="story">
                     <figure class="story__shape">
                         <img src="img/nat-8.jpg" alt="person 1" class="story__image">
-                        <figcaption class="story__caption">Mary smith</figcaption>    
+                        <figcaption class="story__caption">Mary smith</figcaption>
                     </figure>
                     <div class="story__text">
                         <h3 class="heading-tertiary u-margin-bottom-2">
                             I had the best week ever with my family.
                         </h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur itaque debitis placeat quod minus nulla laudantium ipsa earum mollitia, facere molestias ex, adipisci consequuntur</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur itaque debitis placeat
+                            quod minus nulla laudantium ipsa earum mollitia, facere molestias ex, adipisci consequuntur
+                        </p>
                     </div>
                 </div>
             </div>
@@ -279,13 +296,15 @@
                 <div class="story">
                     <figure class="story__shape">
                         <img src="img/nat-9.jpg" alt="person 1" class="story__image">
-                        <figcaption class="story__caption">Jack Willson</figcaption>    
+                        <figcaption class="story__caption">Jack Willson</figcaption>
                     </figure>
                     <div class="story__text">
                         <h3 class="heading-tertiary u-margin-bottom-2">
                             WOW! my life is completely different now.
                         </h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur itaque debitis placeat quod minus nulla laudantium ipsa earum mollitia, facere molestias ex, adipisci consequuntur</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur itaque debitis placeat
+                            quod minus nulla laudantium ipsa earum mollitia, facere molestias ex, adipisci consequuntur
+                        </p>
                     </div>
                 </div>
             </div>
@@ -307,11 +326,11 @@
                         </div>
                         <form action="#" class="form">
                             <div class="form__group">
-                                <input type="text" class="form__input"  id="name" placeholder="Full Name" required>
+                                <input type="text" class="form__input" id="name" placeholder="Full Name" required>
                                 <label for="name" class="form__label">Full Name</label>
                             </div>
                             <div class="form__group">
-                                <input type="email" class="form__input"  id="email" placeholder="Email Address" required>
+                                <input type="email" class="form__input" id="email" placeholder="Email Address" required>
                                 <label for="email" class="form__label">Email Address</label>
                             </div>
 
@@ -346,16 +365,15 @@
     </main>
 
 
-<!-- Footer section -->
+    <!-- Footer section -->
     <footer class="footer">
         <div class="footer__logo-box">
             <picture>
                 <!-- set image for mobile phone -->
                 <source srcset="img/logo-green-small-1x.png 1x, img/logo-green-small-1x.png 2x"
-                         media="(max-width: 37.5em)">
+                    media="(max-width: 37.5em)">
                 <!-- set image for different screen resolution -->
-                <img srcset="img/logo-green-1x.png 1x ,img/logo-green-2x.png 2x" 
-                        alt="logo" class="footer__logo">
+                <img srcset="img/logo-green-1x.png 1x ,img/logo-green-2x.png 2x" alt="logo" class="footer__logo">
             </picture>
         </div>
         <div class="row">
@@ -370,37 +388,53 @@
                     </ul>
                 </div>
             </div>
-            
+
             <div class="col-1-of-2">
                 <p class="footer__copyright">
-                    Lorem ipsum dolor, <a href="#" class="footer__link">Shubham Oulkar</a> sit amet consectetur adipisicing elit. Perspiciatis officia non obcaecati inventore.
+                    Lorem ipsum dolor, <a href="#" class="footer__link">Shubham Oulkar</a> sit amet consectetur
+                    adipisicing elit. Perspiciatis officia non obcaecati inventore.
                     Copyright &copy; by Shubham Oulkar.
                 </p>
             </div>
         </div>
 
-        
+
     </footer>
 
 
-<!-- popup -->
-<div class="popup" id="popup">
-    <div class="popup__content">
-        <div class="popup__left">
-            <img class="popup__img" src="img/nat-8.jpg" alt="photo">
-            <img class="popup__img" src="img/nat-9.jpg" alt="photo">
-        </div>
-        <div class="popup__right">
-            <a href="#section-tours" class="popup__close">&times;</a>
-            <h2 class="heading-secondary u-margin-bottom-2">Start booking now</h2>
-            <h3 class="heading-tertiary u-margin-bottom-2">Important &ndash; Please read these terms before booking</h3>
-            <p class="popup__text">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum odit perferendis voluptate cum porro esse ex deserunt enim delectus quibusdam quos alias autem placeat optio, maiores facere, asperiores temporibus fuga!
-            </p>
-            <a href="#" class="btn btn--green">Book now</a>
+    <!-- popup -->
+    <div class="popup" id="popup">
+        <div class="popup__content">
+            <div class="popup__left">
+                <img class="popup__img" 
+                srcset="img/nat-8.jpg 500w, img/nat-8-large.jpg 2000w" 
+                src="img/nat-8.jpg" 
+                alt="photo"
+                sizes="(max-width:1200px) 10vw, (max-width:900px) 20vh, 300px"
+                >
+
+                <img class="popup__img" 
+                srcset="img/nat-9-small.jpg 500w, img/nat-9.jpg 2000w" 
+                src="img/nat-9.jpg" 
+                alt="photo"
+                sizes="(max-width:1200px) 10vw, (max-width:900px) 20vw, 300px"
+                >
+                
+            </div>
+            <div class="popup__right">
+                <a href="#section-tours" class="popup__close">&times;</a>
+                <h2 class="heading-secondary u-margin-bottom-2">Start booking now</h2>
+                <h3 class="heading-tertiary u-margin-bottom-2">Important &ndash; Please read these terms before booking
+                </h3>
+                <p class="popup__text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum odit perferendis voluptate cum
+                    porro esse ex deserunt enim delectus quibusdam quos alias autem placeat optio, maiores facere,
+                    asperiores temporibus fuga!
+                </p>
+                <a href="#" class="btn btn--green">Book now</a>
+            </div>
         </div>
     </div>
-</div>
 
 
 
